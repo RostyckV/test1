@@ -1,0 +1,283 @@
+.container{
+    width: 700px;
+    height: 550px;
+    margin: auto;
+
+}
+#lavender{
+    width: 700px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.lavender{
+    width: 700px;
+    height: 250px;
+    background: lavender;
+    border-radius: 5px;
+
+}
+
+#lorem{
+    width: 670px;
+    height: 200px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.edit{
+    width: 60px;
+    height: 35px;
+    background: orange;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.style{
+    background: royalblue;
+    color: white;
+}
+.center{
+    width: 130px;
+    height: 45px;
+    margin: auto;
+
+}
+#textarea{
+    width: 650px;
+    height: 250px;
+    display: none;
+    margin-left: 30px;
+}
+.area{
+    width: 640px;
+    height: 150px;
+    margin-top: 30px;
+}
+.add{
+    background: red;
+    color: white;
+    margin-top: 10px;
+}
+.save{
+    background: green;
+    color: white;
+    margin-top: 10px;
+}
+#block_style{
+    width: 450px;
+    height: 240px;
+    /* background: cornflowerblue; */
+    margin-left: 30px;
+    padding-top: 10px;
+    display: none;
+}
+.margin{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.options{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+.button_color{
+    height: 30px;
+    background: dimgray;
+    color: white;
+    border-radius: 4px;
+}
+#colors{
+    width: 150px;
+    height: 150px;
+    margin-left: 450px;
+    margin-top: -180px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.color{
+    width: 50px;
+    height: 50px;
+}
+#background_colors{
+    width: 150px;
+    height: 150px;
+    margin-left: 450px;
+    margin-top: -180px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.red{
+    background: red;    
+}
+.blue{
+    background: blue;    
+}
+.green{
+    background: green;
+}
+.black{
+    background: black;
+}
+.orange{
+    background: orange;
+}
+.violet{
+    background: violet;
+}
+.white{
+    background: white;
+}
+.purple{
+    background: purple;
+}
+.darkcyan{
+    background: darkcyan;
+}
+.text_red{
+    color: red;
+}
+.text_blue{
+    color: blue;
+}
+.text_green{
+    color: green;
+}
+.text_black{
+    color: black;
+}
+.text_orange{
+    color: orange;
+}
+.text_violet{
+    color: violet;
+}
+.text_white{
+    color: white;
+}
+.text_purple{
+    color: purple;
+}
+.text_darkcyan{
+    color: darkcyan;
+}
+.font_size12{
+    font-size: 12px;
+}
+.font_size14{
+    font-size: 14px;
+}
+.font_size16{
+    font-size: 16px;
+}
+.font_size18{
+    font-size: 18px;
+}
+.font_size20{
+    font-size: 20px;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+.monospace{
+    font-family: monospace;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.lavender_choose{
+    width: 700px;
+    height: 250px;
+    background: lavender;
+    border-radius: 5px;
+
+    
+    display: none;
+}
+.choose{
+    width: 670px;
+    height: 200px;
+    margin-left: 30px;
+    padding-top: 10px;
+
+
+
+    /* display: none; */
+}
+.what_you_want{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+#block_table{
+    display: none;
+}
+
+
+/* #choose_what_you_want{
+    width: 700px;
+    height: 400px;
+    background: lavender;
+    border-radius: 5px;
+
+
+    display: none;
+} */
+/* .table_list{
+    width: 670px;
+    height: 370px;
+    margin-left: 30px;
+    padding-top: 10px;
+} */
+.line{
+    width: 670px;
+    height: 50px;
+    display: flex;
+}
+.width{
+    width:120px;
+}
+.input_text{
+    width: 520px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.add_style{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.input_width{
+    width: 80px;
+}
+.margin_left{
+    margin-left: 20px;
+    margin-right: 17px;
+}
+.button_table{
+    height: 30px;
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+#block_list{
+    display: none;
+}
+
+
+
+
+td{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+table{
+    border-spacing: 0px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="page_styles">
+            <div id="lavender" class="lavender">
+                <div id="lorem">
+                    <div id="lorem_color">
+                        <div id="option_fonts">
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <form action="" name="form">
+                    <input id="edit" type="button" value="edit" class="edit">
+                    <input id="style" type="button" value="style" class="edit style">
+                </form>
+            </div>
+            <div class="lavender">
+                <div id="textarea">
+                    <form action="" name="form_textarea">
+                        <textarea name="" id="text" cols="30" rows="10" class="area">
+    
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                            <p>Lorem ipsum dolor, sit amet.</p>
+                        </textarea>
+                        <input id="add" type="button" value="add" class="edit add">
+                        <input id="save" type="button" value="save" class="edit save">
+                    </form>
+                </div>
+                <div id="block_style">
+                    <p class="margin">Font Size:</p>
+                    <form action="" name="style">
+                        <label for=""><input type="radio" name="r" id="12px">12px</label>
+                        <label for=""><input type="radio" name="r" id="14px">14px</label>
+                        <label for=""><input type="radio" name="r" id="16px">16px</label>
+                        <label for=""><input type="radio" name="r" id="18px">18px</label>
+                        <label for=""><input type="radio" name="r" id="20px">20px</label>
+                        <p class="margin">Font Family:</p>
+                        <select name="fonts" id="" class="options">
+                            <option value="Choose option">Choose option</option>
+                            <option value="cursive">cursive</option>
+                            <option value="fantasy">fantasy</option>
+                            <option value="monospace">monospace</option>
+                            <option value="sans-serif">sans-serif</option>
+                        </select>
+                        <p class="margin">Colors:</p>
+                        <input id="text_color" class="button_color" type="button" value="Color of Text">
+                        <input id="button_background_color" class="button_color" type="button" value="Background Color">
+                        <p class="margin">Style:</p>
+                        <label for=""><input type="checkbox" name="" id="bold">Bold text</label>
+                        <label for=""><input type="checkbox" name="" id="cursive">Cursive text</label>
+                    </form>
+                    <div id="colors">
+                        <div id="red" class="color red"></div>
+                        <div id="blue" class="color blue"></div>
+                        <div id="green" class="color green"></div>
+                        <div id="black" class="color black"></div>
+                        <div id="orange" class="color orange"></div>
+                        <div id="violet" class="color violet"></div>
+                        <div id="white" class="color white"></div>
+                        <div id="purple" class="color purple"></div>
+                        <div id="darkcyan" class="color darkcyan"></div>
+                    </div>
+                    <div id="background_colors">
+                        <div id="back_red" class="color red"></div>
+                        <div id="back_blue" class="color blue"></div>
+                        <div id="back_green" class="color green"></div>
+                        <div id="back_black" class="color black"></div>
+                        <div id="back_orange" class="color orange"></div>
+                        <div id="back_violet" class="color violet"></div>
+                        <div id="back_white" class="color white"></div>
+                        <div id="back_purple" class="color purple"></div>
+                        <div id="back_darkcyan" class="color darkcyan"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="choose" class="lavender_choose">
+            <div class="choose">
+                <p class="what_you_want">Choose what you want:</p>
+                <form action="" name="choose">
+                    <label for=""><input type="radio" name="r" id="choose_table">table</label>
+                    <label for=""><input type="radio" name="r" id="choose_list">list</label>
+                </form>
+                <div id="block_table">
+                    <form action="" name="table">
+                        <div class="line">
+                            <p class="width">Count TR:</p>
+                            <input id="rows" class="input_text" type="text" placeholder="Count TR:">
+                        </div>
+                        <div class="line">
+                            <p class="width">Count TD:</p>
+                            <input id="columns" class="input_text" type="text" placeholder="Count TD:">
+                        </div>
+                        <p class="add_style">Add style to your table:</p>
+                        <div class="line">
+                            <p class="width">Width of TD:</p>
+                            <input id="table-width" class="input_text" type="text" placeholder="Width of TD:">
+                        </div>
+                        <div class="line">
+                            <p class="width">Height of TD:</p>
+                            <input id="table-height" class="input_text" type="text" placeholder="Height of TD:">
+                        </div>
+                        <div class="line">
+                            <p class="width">Width of border:</p>
+                            <input class="input_text input_width" type="text" placeholder="Width:">
+                            <p class="margin_left">Type of border:</p>
+                            <select name="" id="" class="input_text input_width">
+                                <option value="solid">solid</option>
+                                <option value="double">double</option>
+                                <option value="dotted">dotted</option>
+                                <option value="dushed">dushed</option>
+                            </select>
+                            <p class="margin_left">Color of border:</p>
+                            <select name="" id="" class="input_text input_width">
+                                <option value="black">black</option>
+                                <option value="red">red</option>
+                                <option value="blue">blue</option>
+                                <option value="green">green</option>
+                            </select>
+                        </div>
+                        <input id="create_table" onclick="addTable();" type="button" value="Create table" class="button_table">
+                    </form>
+                </div>
+                <div id="block_list">
+                    <form action="" name="list">
+                        <div class="line">
+                            <p class="width">Count Li:</p>
+                            <input class="input_text" type="text" placeholder="Count Li:">
+                        </div>
+                        <div class="line">
+                            <p class="width">Type of marks:</p>
+                            <select  class="input_text" name="" id="">
+                                <option value="circle">circle</option>
+                                <option value="disc">disc</option>
+                                <option value="square">square</option>
+                            </select>
+                        </div>
+                        <br>
+                        <input id="create_list" type="button" value="Create list" class="button_table">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
